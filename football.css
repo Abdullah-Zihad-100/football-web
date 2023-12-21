@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@1,700&family=Exo+2:wght@500&family=Montserrat:wght@100;400;500;700&family=Poppins:ital,wght@0,500;1,200&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #3b3bac;
+        color: #fff;
+}
+/* nav style------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    height: 44px;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.nav-left ul{
+    list-style: none;
+    display: flex;
+}
+.nav-left ul li{
+    cursor: pointer;
+    margin-left: 80px;
+}
+.btn{
+    padding: 8px 18px;
+    color: #fff;
+    background-color: rgba(209, 68, 209, 0.87);
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    left: 100px;
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 170px;
+    align-items: center;
+    
+}
+.sec1-right img{
+    width:556px;
+    height: 438px;
+    margin-right: 50px;
+}
+.sec1-left h1{
+    font-size: 4.5rem;
+    width: 60%;
+    margin-left: 100px;
+}
+/* section 1 end */
+.section2{
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player{
+    height: 474px;
+    width: 330px;
+    background-color: #f9fcfa;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-top: 12px;
+
+}
+.player p{
+    color: #5f5d5d;
+    width: 90%;
+    position: relative;
+    left: 10px;
+
+
+}
+.player h2{
+    color: #131212;
+}
+.players{
+    margin: 0 auto;
+    width: 70%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+}
+/* Section 3 */
+
+
+
+.section3{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+}
+.section3-right img{
+width: 567px;
+height: 427px;
+}
+.section3-left h1{
+font-size: 3rem;
+width: 75%;
+}
+.section3-left p{
+color: #5f5d5d;
+width: 85%;
+}
+.section3-left button{
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #a130b8;
+    border: none;
+    outline: auto;
+    border-radius: 2px;
+    margin-top: 15px;
+}
